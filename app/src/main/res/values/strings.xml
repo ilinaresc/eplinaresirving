@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ep</string>
+    <string name="valtvhola">Hola! Bienvenido a nuestra App.</string>
+    <string name="valbtingresar">Ingresar</string>
+    <string name="valetemail">Ingresar email</string>
+    <string name="valetpassword">Ingresar contraseña</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Servicios</string>
+    <string name="menu_gallery">Cotizador</string>
+    <string name="menu_slideshow">Clientes</string>
+    <string name="valspservicio">Seleccione el servicio</string>
+    <string name="valbtcalcular">Calcular</string>
+
+    <string-array name="services_array">
+        <item>Seleccione el servicio</item>
+        <item>Cambio de aceite</item>
+        <item>Mantenimiento correctivo</item>
+        <item>Alineamiento de dirección</item>
+        <item>Cambio de frenos</item>
+    </string-array>
+
+    <string-array name="services_array_2">
+        <item>Cambio de aceite</item>
+        <item>Mantenimiento correctivo</item>
+        <item>Alineamiento de dirección</item>
+        <item>Cambio de frenos</item>
+        <item>Lavada de motor</item>
+    </string-array>
+
+</resources>
