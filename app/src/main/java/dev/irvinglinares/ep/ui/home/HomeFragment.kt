@@ -24,13 +24,22 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        // Definir el array de servicios directamente en el fragmento
+        val servicios = arrayOf(
+            "Cambio de aceite",
+            "Mantenimiento correctivo",
+            "Alineamiento de dirección",
+            "Cambio de frenos",
+            "Lavado de motor"
+        )
+
         val listView: ListView = binding.lvServicios
 
-        val servicios = resources.getStringArray(R.array.services_array_2)
-
+        // Adaptador para el ListView
         val adapter = ArrayAdapter(requireContext(), R.layout.simple_list_item_1, servicios)
         listView.adapter = adapter
 
+        // Manejo de clics en los elementos de la lista
         listView.setOnItemClickListener { parent, view, position, id ->
             val servicioSeleccionado = parent.getItemAtPosition(position).toString()
             Toast.makeText(requireContext(), "Seleccionaste: $servicioSeleccionado", Toast.LENGTH_SHORT).show()
